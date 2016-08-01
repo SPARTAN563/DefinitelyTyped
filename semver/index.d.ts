@@ -31,7 +31,7 @@ declare namespace SemVerModule {
     /**
      * Returns an array of prerelease components, or null if none exist.
      */
-    function prerelease(v: string): string[];
+    function prerelease(v: string, loose?: boolean): string[];
 
     // Comparison
     /**
